@@ -24,7 +24,22 @@ namespace BlogApplication_Backend
 
         public string PostSuccessMsg = "New post created successfully!";
         public string PostErrorMsg = "New post failed to created!";
+        public string PostNotFoundMsg = "Post not found ";
+
+        public string UpdatePostSuccessMsg = "Post updated successfully!";
+        public string UpdatePostErrorMsg = "Post failed to update!";
+
+        public string DeletePostSuccessMsg = "Post deleted successfully!";
+        public string DeletePostErrorMsg = "Post failed to delete!";
+
         public string CommentSuccessMsg = "New comment created successfully!";
         public string CommentErrorMsg = "New comment failed to created!";
+        public string CommentNotFoundMsg = "Comment not found ";
+
+        public string UpdateCommentSuccessMsg = "Comment updated successfully!";
+        public string UpdateCommentErrorMsg = "Comment failed to updated!";
+
+        public string DeleteCommentSuccessMsg = "Comment deleted successfully!";
+        public string DeleteCommentErrorMsg = "Comment failed to delete!";
     }
 }

@@ -12,5 +12,16 @@ namespace BlogApplication_Backend.Models
         public string? UserName { get; set; }
         public string? CommentDescription { get; set; }
         public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
+    }
+
+    public class UpdateComment
+    {
+        [Required]
+        public string? Id { get; set; }
+        [Required]
+        public string? CommentDescription { get; set;}
+        
+        public DateTime? UpdatedDate { get; set; }
     }
 }
